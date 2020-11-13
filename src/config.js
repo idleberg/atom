@@ -603,7 +603,7 @@ class Config {
   // atom.config.get('editor.tabLength', scope: scopeDescriptor) # => 2
   // ```
   //
-  // * `keyPath` The {String} name of the key to retrieve.
+  // * `keyPath` (optional) The {String} name of the key to retrieve.
   // * `options` (optional) {Object}
   //   * `sources` (optional) {Array} of {String} source names. If provided, only
   //     values that were associated with these sources during {::set} will be used.
@@ -640,7 +640,7 @@ class Config {
   // Extended: Get all of the values for the given key-path, along with their
   // associated scope selector.
   //
-  // * `keyPath` The {String} name of the key to retrieve
+  // * `keyPath` (optional) The {String} name of the key to retrieve
   // * `options` (optional) {Object} see the `options` argument to {::get}
   //
   // Returns an {Array} of {Object}s with the following keys:
